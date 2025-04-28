@@ -1,0 +1,17 @@
+###
+POST {{BASE_URL}}/api/v1/property/extract_images
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+
+{
+  "user_id": "660a9f098aa8c7f495468fac",
+  "property_id": "7e5c50580b244838410ccadc87126dd9471eea6b668ef92817cc1ef301be582b",
+  "property_name": "Serving Baylor University 1912 S 5TH ST",
+  "pdfs": [
+    {"s3_link": "https://my-files.s3.amazonaws.com/78ad3630-8faa-4bb8-895c-0e3251ba29f0.pdf",
+      "file_name": "Eastgate Apartments OM.pdf",
+      "file_size": "11.91 MBs",
+      "file_ext": "pdf",
+      "file_path": "users/660a9f098aa8c7f495468fac/0483e60c-5bef-49d6-9e9b-f7e809839d36/Eastgate Apartments OM.pdf"}
+  ]
+}

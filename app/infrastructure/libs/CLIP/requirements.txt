@@ -1,0 +1,10 @@
+# install torch manuall
+## pillow
+## tqdm
+opencv-python #==4.9.0
+matplotlib
+# captum
+# pyqt5
+scikit-learn
+ftfy
+regex
